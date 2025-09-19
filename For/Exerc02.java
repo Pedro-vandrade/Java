@@ -1,4 +1,4 @@
-package For;
+package For;package For;
 import java.util.Scanner;
 
 public class Exerc02 {
@@ -11,7 +11,7 @@ public class Exerc02 {
 
         for (int i=0; i<n; i++){
             int x = sc.nextInt();
-            if (n >= 10 && n <= 20){
+            if (x >= 10 && x <= 20){
                 in += 1;
             }else {
                 out += 1;
@@ -22,3 +22,5 @@ public class Exerc02 {
         sc.close();
     }
 }
+
+
