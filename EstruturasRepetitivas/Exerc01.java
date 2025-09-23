@@ -1,4 +1,4 @@
-package EstruturasRepetitivas;
+package While;
 import java.util.Scanner;
 
 public class Exerc01 {
