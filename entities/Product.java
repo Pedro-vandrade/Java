@@ -8,11 +8,19 @@ public class Product {
     public double totalValueinStock(){
         return price * quantity;
     }
+
     public void addProducts(int quantity){
         this.quantity += quantity;
     }
     public void removeProducts(int quantity){
         this.quantity -= quantity;
+    }
+
+    public String toString(){
+        return name + ", $ " +
+                price + ", " +
+                quantity + " units, Total: $" +
+                totalValueinStock();
     }
 }
 // this : palavra reservada que é uma auto referência ao objeto (no caso será quantity)

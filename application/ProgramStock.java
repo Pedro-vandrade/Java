@@ -20,7 +20,16 @@ public class ProgramStock {
         product.quantity = sc.nextInt();
 
 
+        System.out.println("Product Data: " + product);
+        System.out.println("Enter how much items will be added in stock: ");
+        int quantity = sc.nextInt();
+        product.addProducts(quantity);
+        System.out.println("Updated product data: " + product);
 
+        System.out.println("Enter how much items will be removed from stock: ");
+        quantity = sc.nextInt();
+        product.removeProducts(quantity);
+        System.out.println("Updated product data after removal: " + product);
 
         sc.close();
     }
