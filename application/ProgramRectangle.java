@@ -1,6 +1,4 @@
 package application;
-
-package application;
 import entities.Rectangle;
 
 import java.util.Locale;
@@ -40,3 +38,4 @@ DIAGONAL = 5.00
 *
 *
 * */
+
