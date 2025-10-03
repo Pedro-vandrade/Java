@@ -32,7 +32,7 @@ public class heightsVector {
         double avgHeights = sum / n;
 
         System.out.printf("Average Height :  %.2f%n", avgHeights);
-
+        sc.nextLine();
         int count = 0;
         for (int i=0; i<n; i++) {
             if (age[i] < 16) {
@@ -41,7 +41,12 @@ public class heightsVector {
         }
 
         double pctge = count * 100.0 / n;
-        System.out.printf("%.2f%%n", pctge);
+        System.out.printf("%.2f%%", pctge);
+        for (int i=0; i<n; i++) {
+            if (age[i] < 16) {
+                System.out.println(names[i]);
+            }
+        }
         sc.close();
     }
 }
